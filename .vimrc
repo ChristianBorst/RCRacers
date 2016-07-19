@@ -23,7 +23,7 @@ filetype indent on			"Load filetype-specific indent files:
 set wildmenu			      "Visual autocomplete for command menu
 set lazyredraw          "Only redraw the parts of the screen which have changed
 set showmatch           "Highlight matching [{('s
-
+set colorcolumn=80      "Highlight the 80th column in the file for a good line-break marker
 
 "==========================================================================================
 "SEARCHING
