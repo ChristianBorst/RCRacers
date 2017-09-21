@@ -1,4 +1,4 @@
-files= .vimrc .XCompose .xinitrc
+files= .vimrc .XCompose .xinitrc .tmux.conf
 
 all:
 	cp $(files) ~/
