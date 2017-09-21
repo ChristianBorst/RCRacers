@@ -1,7 +1,5 @@
 "==========================================================================================
 "COLORS AND SYNTAX
-colorscheme badwolf			"Set the color scheme: Requires badwolf in the ~/.vim/colors folder
-
 syntax enable     			"Enable syntax highlighting
 
 
@@ -22,8 +20,8 @@ filetype indent on			"Load filetype-specific indent files:
                           "Place LANGUAGE.vim file in ~/.vim/indent
 set wildmenu			      "Visual autocomplete for command menu
 set lazyredraw          "Only redraw the parts of the screen which have changed
-set showmatch           "Highlight matching [{('s
-set colorcolumn=80      "Highlight the 80th column in the file for a good line-break marker
+set breakindent         "Indents broken lines to the correct width
+set mouse=a             "Enables tmux scrolling
 
 "==========================================================================================
 "SEARCHING
